@@ -1,0 +1,16 @@
+# Application-wide configuration
+spring:
+  application:
+    name: cloud-congfig-client-feign
+
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        service-id: cloud-config-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/

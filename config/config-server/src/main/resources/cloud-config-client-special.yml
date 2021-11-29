@@ -1,0 +1,6 @@
+server:
+  port: 8101
+
+app:
+  service:
+    name: Spring Cloud Client Example With a Special Profile
